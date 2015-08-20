@@ -21,7 +21,7 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-gem 'frontend-generators', require: false, git: "git@github.com:MrPowers/frontend-generators.git", ref: "dd3f47b"
+gem 'frontend-generators', require: false, git: "git@github.com:MrPowers/frontend-generators.git", ref: "efdd355"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

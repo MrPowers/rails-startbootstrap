@@ -1,7 +1,7 @@
 GIT
   remote: git@github.com:MrPowers/frontend-generators.git
-  revision: dd3f47bd0924c94391eaeb85200d3dfa82d07bcc
-  ref: dd3f47b
+  revision: efdd355a55a0a026bcb81e837fe02a0cac3cd494
+  ref: efdd355
   specs:
     frontend-generators (0.0.1)
 
