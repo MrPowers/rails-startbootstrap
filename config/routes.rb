@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'creatives/index'
+
   get 'static_pages/index'
 
   get 'stylish_portfolios/index'
