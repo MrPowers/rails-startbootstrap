@@ -12,4 +12,4 @@ Rails.application.config.assets.version = '1.0'
 #Rails.application.config.assets.precompile += [/.*\.js/,/.*\.css/]
 #Rails.application.config.assets.precompile =  ['*.js', '*.css', '*.css.erb']
 #Rails.application.config.assets.precompile << /\.(?:png|jpg|jpeg|gif)\z/
-Rails.application.config.assets.precompile += %w( creative/creative_manifest.css creative/creative_manifest.js stylish_portfolio/stylish_portfolio_manifest.css stylish_portfolio/stylish_portfolio_manifest.js )
+Rails.application.config.assets.precompile += %w( creative/manifest.js creative/manifest.css stylish_portfolio/manifest.css stylish_portfolio/manifest.js )
