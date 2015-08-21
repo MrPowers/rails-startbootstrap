@@ -5,5 +5,5 @@ require File.expand_path('../config/application', __FILE__)
 
 Rails.application.load_tasks
 
-require "frontend_generators"
-load 'tasks/add_assets.rake'
+require "frontend_generators" if Rails.env.development?
+load 'tasks/add_assets.rake' if Rails.env.development?
