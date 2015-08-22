@@ -21,7 +21,7 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-gem 'frontend-generators', require: false, git: "git@github.com:MrPowers/frontend-generators.git", ref: "efdd355"
+gem 'frontend-generators', git: "git@github.com:MrPowers/frontend-generators.git", ref: "0ac44e58f0e5fa020b553163d0b7ea9d69fb09bb"
 
 gem 'rails_12factor', group: :production
 
