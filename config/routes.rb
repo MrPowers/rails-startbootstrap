@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'freelancers/index'
+
   get 'creatives/index'
 
   get 'static_pages/index'
